@@ -27,3 +27,16 @@ dist-ssr
 .amplify
 amplify_outputs*
 amplifyconfiguration*
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+
